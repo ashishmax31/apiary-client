@@ -23,12 +23,12 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_runtime_dependency 'rest-client', '~> 2.0'
-  gem.add_runtime_dependency 'rack', '~> 2.0.0'
-  gem.add_runtime_dependency 'thor', '~> 0.19.1'
-  gem.add_runtime_dependency 'json', '~> 1.8'
-  gem.add_runtime_dependency 'launchy', '~> 2.4'
-  gem.add_runtime_dependency 'listen', '~> 2.0'
+  gem.add_runtime_dependency 'rest-client', '>= 2.0'
+  gem.add_runtime_dependency 'rack', '>= 2.0.0'
+  gem.add_runtime_dependency 'thor', '>= 0.19.1'
+  gem.add_runtime_dependency 'json', '>= 1.8'
+  gem.add_runtime_dependency 'launchy', '>= 2.4'
+  gem.add_runtime_dependency 'listen', '>= 2.0'
 
   gem.add_development_dependency 'bundler', '~> 1.12'
   gem.add_development_dependency 'rake', '~> 10.0'
